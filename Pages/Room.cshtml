@@ -1,0 +1,11 @@
+﻿@page
+@model RoomModel
+@{
+    ViewData["Title"] = "Room";
+}
+<h1>@ViewData["Title"]</h1>
+
+<div class="text-center">
+    <p id="remainingTime">10:00</p>
+    <button id="startCounter" onclick="runTimer()">Start</button>
+</div>
